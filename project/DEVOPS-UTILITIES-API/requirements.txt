@@ -1,0 +1,9 @@
+fastapi   # FastAPI is a modern Python framework used to build APIs (Application Programming Interfaces) quickly and efficiently.
+uvicorn   # Uvicorn is a lightweight, high-performance ASGI web server used to run FastAPI applications.
+          # ASGT >> Asynchronous Server Gateway Interface
+
+psutil # for system configuration
+
+boto3  # for aws 
+
+#datetime # for current date_time

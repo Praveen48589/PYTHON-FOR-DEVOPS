@@ -6,11 +6,11 @@ import psutil
 def check_cpu_threshold():
     threshold_cpu = int(input("Enter the current cpu threshold :"))
     current_cpu = psutil.cpu_percent(interval=1)
-    print("Current CPU % is : ", current_cpu)
+    print("Current CPU % is : ", current_cpu,"%")
     if current_cpu > threshold_cpu:
         print("CPU ALERT Email sent to admin")
     else:
-        print("CPU usage is normal")
+        print("CPU usage is normal") 
     
 
 
